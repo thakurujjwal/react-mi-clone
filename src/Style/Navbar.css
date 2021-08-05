@@ -1,0 +1,58 @@
+.nav {
+    z-index: 1000;
+    background-color: white;
+    padding: 1vmax;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid rgba(43, 43, 43, 0.137);
+}
+
+.logo {
+    background: orangered;
+    width: 58px;
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    right: 2vmax;
+}
+.logoimg{
+    transition: all 0.2s;
+    transform: translateX(-55px);
+}
+
+.logoimg:hover{
+ transform: translateX(0px);
+}
+.navlinks{
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+    margin: 1vmax 1.2vmax;
+    font-weight: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1vmax;
+}
+.navlinks:hover {
+    color: orangered;
+    text-decoration: none;
+}
+
+.searchbox{
+    position: relative;
+    left: 5vmax;
+}
+.searchbox>input{
+    border: none;
+    border-bottom: 1px solid rgba(43, 43, 43, 0.137);
+    outline: none;
+    width:15vmax;
+    font-size: 1.1vmax;
+    font-weight: 100;
+    color: rgb(61,61,61);
+}
+
+  .searchbox>svg {
+      fill: rgb(61, 61, 61);
+  }
